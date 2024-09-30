@@ -1,0 +1,10 @@
+times = 'vasco','flamengo','fluminense','botafogo','palmeira','santos','gremio','cruzeiro'
+print(f'Lista de times do campeonato {times}')
+print('=-'*20)
+print(f'Lista dos 5 primeiros {times[0:5]}')
+print('=-'*20)
+print(f'Lista dos 4 ultimos {times[-4:]}')
+print('=-'*20)
+print(f'times em ordens alfabeticas {sorted(times)}')
+print('=-'*20)
+print(f'O cruzeiro está na {times.index('cruzeiro')+1}º posição')
